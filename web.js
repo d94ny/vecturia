@@ -7,8 +7,8 @@ var route = require('./controllers/route');
 var app = express();
 
 /* Run the app on port 8888 */
-app.listen(8889);
-console.log('Running on 8889... ');
+app.listen(8888);
+console.log('Running on 8888... ');
 
 /* Compress using gzip */
 app.use(express.compress());
